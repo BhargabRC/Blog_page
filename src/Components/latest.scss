@@ -1,0 +1,54 @@
+.container2 {
+    display: grid;
+    gap: 10px;
+    height: auto;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 2fr;
+    grid-template-areas:
+        "main2 aside2";
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+main2 {
+    grid-area: main2;
+
+
+    .pic1 {
+        object-fit: cover;
+        vertical-align: top;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+
+    }
+
+}
+
+aside2 {
+    grid-area: aside2;
+
+
+    .published1 {
+        font-family: DM Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.7;
+        color: #666;
+        text-align: left;
+    }
+
+    .header1 {
+        font-family: DM Sans, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.7;
+        color: #222;
+        text-align: left;
+    }
+
+    .text2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}

@@ -1,0 +1,158 @@
+.container {
+  display: grid;
+  height: 100vh;
+  height: 100vh;
+  gap: 20px;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 0.3fr 2fr;
+  grid-template-areas:
+    "header header"
+    "main aside";
+  text-align: center;
+  justify-content: center;
+}
+
+header {
+  grid-area: header;
+ 
+
+  .App-header {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 50px;
+    color: #222;
+    text-align: center;
+    font-family: DM Sans, sans-serif;
+    font-weight: 50;
+    line-height: 1.2;
+  }
+
+}
+
+
+
+main {
+  grid-area: main;
+
+}
+
+aside {
+  grid-area: aside;
+
+
+  a:link {
+    text-decoration: none;
+  }
+
+
+  .categories {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .headcontainer {
+    margin-bottom: 30px;
+  }
+
+  .bodycontainer {
+    margin-bottom: 15px;
+  }
+
+  .widget-title {
+    color: #222;
+    padding: 0 0 10px;
+    background: 0 0;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0 0 30px;
+    position: relative;
+    line-height: 20px;
+    border-bottom: 1px solid #e4e4e4;
+  }
+
+  .widget-cate {
+    color: #666;
+    font-size: 16px;
+    position: relative;
+  }
+
+  .widget-cate:hover {
+    color: #222;
+    font-size: 16px;
+    position: relative;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+    padding-right: 10px;
+  }
+
+  .icons {
+    color: #222;
+    background-color: #fff;
+
+    border-radius: 6cqmin;
+    text-align: center;
+
+    vertical-align: middle;
+    padding: 10px;
+    display: inline-block;
+
+  }
+
+  .icons:hover {
+    color: #fff;
+    background-color: #222;
+
+    border-radius: 60%;
+    text-align: center;
+
+    vertical-align: middle;
+    padding: 10px;
+    display: inline-block;
+
+
+  }
+
+  .tagscontain {
+    padding-bottom: 20px;
+  }
+  
+
+  .but {
+    color: #666;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: DM Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 0%;
+  }
+
+  .but:hover {
+    border-radius: 0%;
+    color: #fff;
+    background: #222;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1fr 1fr;
+    grid-template-areas:
+      "header"
+      "main"
+      "aside"
+  }
+}
