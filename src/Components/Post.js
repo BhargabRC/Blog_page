@@ -9,7 +9,7 @@ function Post() {
       <main1>
 
         <a class="post-thumbnail" href="https://wpbingosite.com/wordpress/furnive/2022/05/30/easy-fixes-for-home-decor/" title="Easy Fixes For Home Decor">
-          <img className="pic" loading="lazy" width="" height="" src="" alt="" decoding="async" />
+          <img className="pic" loading="lazy"  src="https://wpbingosite.com/wordpress/furnive/wp-content/uploads/2018/05/1.jpg" alt="" decoding="async" />
           <button class="button">
             <a href="https://wpbingosite.com/wordpress/furnive/category/dining-kitchen/"></a>
             Dining &amp; Kitchen
